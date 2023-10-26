@@ -50,7 +50,7 @@ export default function CallToActionWithAnnotation() {
             position={'relative'}>
             <Button
               colorScheme={'green'}
-              bg={color == false ? 'green.400' : 'red.400'}
+              bg={color == false ? 'red.400' : 'yellow.400'}
               rounded={'full'}
               px={6}
               onClick={changeColor}
