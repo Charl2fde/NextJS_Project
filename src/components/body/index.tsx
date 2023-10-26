@@ -19,9 +19,9 @@ import { useState } from 'react'
 export default function CallToActionWithAnnotation() {
   const [color, setcolor] = useState(false)
 
-const changeColor = () => {
-  setcolor(color == false ? true : false)
-}
+  const changeColor = () => {
+    setcolor(color == false ? true : false)
+  }
   return (
     <>
       <Container maxW={'3xl'}>
