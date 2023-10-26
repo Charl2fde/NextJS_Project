@@ -1,5 +1,4 @@
 'use client'
-
 import Head from 'next/head'
 import {
   Box,
@@ -13,7 +12,16 @@ import {
   createIcon,
 } from '@chakra-ui/react'
 
+
+import { useState } from 'react'
+
+
 export default function CallToActionWithAnnotation() {
+  const [color, setcolor] = useState(false)
+
+const changeColor = () => {
+  setcolor(color == false ? true : false)
+}
   return (
     <>
       <Container maxW={'3xl'}>
