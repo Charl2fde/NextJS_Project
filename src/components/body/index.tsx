@@ -26,9 +26,9 @@ export default function CallToActionWithAnnotation() {
             fontWeight={600}
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
-            LA FRANCE VA MAL <br />
+            LA FRANCE <br />
             <Text as={'span'} color={'green.400'}>
-              your audience
+              m'apprtient
             </Text>
           </Heading>
           <Text color={'gray.500'}>
