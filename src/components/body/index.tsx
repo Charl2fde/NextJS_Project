@@ -12,9 +12,7 @@ import {
   createIcon,
 } from '@chakra-ui/react'
 
-
 import { useState } from 'react'
-
 
 export default function CallToActionWithAnnotation() {
   const [color, setcolor] = useState(false)
@@ -52,7 +50,7 @@ export default function CallToActionWithAnnotation() {
             position={'relative'}>
             <Button
               colorScheme={'green'}
-              bg={'green.400'}
+              bg={color == false ? 'green.400' : 'red.400'}
               rounded={'full'}
               px={6}
               _hover={{
