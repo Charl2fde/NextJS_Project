@@ -55,7 +55,7 @@ export default function CallToActionWithAnnotation() {
               px={6}
               onClick={changeColor}
               _hover={{
-                bg: 'green.500',
+                bg: 'red.500',
               }}>
               Get Started
             </Button>
