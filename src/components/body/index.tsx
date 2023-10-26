@@ -53,6 +53,7 @@ export default function CallToActionWithAnnotation() {
               bg={color == false ? 'green.400' : 'red.400'}
               rounded={'full'}
               px={6}
+              onClick={changeColor}
               _hover={{
                 bg: 'green.500',
               }}>
