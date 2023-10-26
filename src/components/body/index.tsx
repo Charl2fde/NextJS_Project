@@ -28,7 +28,7 @@ export default function CallToActionWithAnnotation() {
             lineHeight={'110%'}>
             LA FRANCE <br />
             <Text as={'span'} color={'green.400'}>
-              m'apprtient
+              m'apprtient !
             </Text>
           </Heading>
           <Text color={'gray.500'}>
