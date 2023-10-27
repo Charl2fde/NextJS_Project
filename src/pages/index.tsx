@@ -3,6 +3,7 @@ import LargeWithLogoLeft from '@/components/footer'
 import CallToActionWithAnnotation from '@/components/body'
 import Head from 'next/head'
 
+
 export default function Home() {
   return (
     <>

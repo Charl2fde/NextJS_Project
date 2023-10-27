@@ -2,6 +2,7 @@ import Success from '@/components/title'
 import { NextPageContext } from 'next'
 import Head from 'next/head'
 
+
 export default function Home(props:any) {
 
   console.log(props)
@@ -16,7 +17,9 @@ export default function Home(props:any) {
       </Head>
       <main> 
           <Success title={props.data.user}/>
+      
       </main>
+      
     </>
   )
 }
